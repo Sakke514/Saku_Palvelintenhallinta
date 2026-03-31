@@ -15,8 +15,7 @@ a)
 - viimeiseksi kirjaudutaan (ssh localhost)
 
 b)
-
--aluksi tehdää avain (ssh-keygen)
+- aluksi tehdää avain (ssh-keygen)
 - sitten se kopiodaan ssh-copy-ide käyttäjänimi@localhost
 -ja viimeiseksi kun testaa esim ssh localhost toimii jos ei kysy salasanaa ja menee suoraan sisään
 
