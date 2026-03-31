@@ -1,12 +1,12 @@
 x) SSH public key - Login Without password
-- Ensiksi generoidaan avainpari (Oma huomio vain julkinen avain voidaan jakaa muille)
+- Ensiksi generoidaan avainpari (Oma huomio vain julkinen avain jaetaan muille)
 - Komenolla ssh-copy-id kopiodaan se hostiin sen jälkeen kun olet kirjoittanut salasanan viimeisen kerran komento lisää julkisen aveimen semmoiseksi, että sillä katsotaan olevan oikeudet kirjautumiseen 
-(oma huomio, oma kone allekirjoitta salaisella avaimella ja jos palvelin tarkastaa ja se vastaa julkista avainta pääsee sisään jos taas avaimet eivät vastaa toisiaan ei pääse sisään)
+(oma huomio, oma kone allekirjoittaa salaisella avaimella ja jos palvelin tarkastaa ja se vastaa julkista avainta pääsee sisään jos taas avaimet eivät vastaa toisiaan ei pääse sisään)
 
 x) Hello Ansible
 - Aluksi asennetaa Ansible komennoilla sudo apt-get update, sudo apt-get install ansible micro bash-completion tree (oma huomio, jos ei aja komentoa sudo apt-get update kone käyttää vanhaa listaa ja voi olla että
 asentuu vanha versio)
-- Seuraavaksi ohjeessa testataan Ansiblea ja kirjataan kaikki hostit mitä ohjataan .ini (oma huomio voi käyttää myös .txt, .ini kertoo ihmiselle että kyseessä konfiguraatio mutta sama toimii myös .txt)
+- Seuraavaksi ohjeessa testataan Ansiblea ja kirjataan kaikki hostit mitä ohjataan .ini (oma huomio voi käyttää myös .txt)
 - Seuraavaksi ohjeessa tehdää file ja runnataa playbook ja voidaan nähdä että se tekee muutokseen slaveen. (Kysymys miten ansible varmistaa että palybook voidaan ajaa useita kertoja ilman turhia muutoksia)
 
 a) 
