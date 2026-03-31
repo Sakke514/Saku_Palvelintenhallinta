@@ -19,8 +19,17 @@ b)
 - sitten se kopiodaan ssh-copy-ide käyttäjänimi@localhost
 -ja viimeiseksi kun testaa esim ssh localhost toimii jos ei kysy salasanaa ja menee suoraan sisään
 
-c 
+c)
+- Inventory tiedosto määrillee localhostin ja ssh-yhteyden (eli mitä koneita hallitaan ja miten niihin yhdistetään esim tässä tapauksessa "ansible_connection=ssh)
+- playbook luo tiedsoton /tmp/hellot.txt
+- playbookin ajoin komennolla "ansible-playbook -i invi.ini hello.yml
+- sain tulokseksi changed=1 eli tiedosto luotiin
 
 <img src="kuva1.png" alt="Kuvankaappaus">
 
 
+lähteet 
+https://docs.ansible.com/projects/ansible/latest/user_guide/index.html
+https://terokarvinen.com/ssh-public-key-login-without-password/
+https://terokarvinen.com/hello-ansible/
+Tehtävässä c) hyödynnettiin ChatGPT 3.5 -kielimallia. Syötteenä käytettiin: "kun käytän ansiblea mitä ini ja yml tiedostoilla tehdään ja mitä niihin tulisi laittaa" ja "mitä kaikkea tarvitaan playbookin ajamiseen"
