@@ -29,7 +29,7 @@ c)
 
 
 lähteet 
-https://docs.ansible.com/projects/ansible/latest/user_guide/index.html
-https://terokarvinen.com/ssh-public-key-login-without-password/
-https://terokarvinen.com/hello-ansible/
-Tehtävässä c) hyödynnettiin ChatGPT 3.5 -kielimallia. Syötteenä käytettiin: "kun käytän ansiblea mitä ini ja yml tiedostoilla tehdään ja mitä niihin tulisi laittaa" ja "mitä kaikkea tarvitaan playbookin ajamiseen"
+- https://docs.ansible.com/projects/ansible/latest/user_guide/index.html
+- https://terokarvinen.com/ssh-public-key-login-without-password/
+- https://terokarvinen.com/hello-ansible/
+- Tehtävässä c) hyödynnettiin ChatGPT 3.5 -kielimallia. Syötteenä käytettiin: "kun käytän ansiblea mitä ini ja yml tiedostoilla tehdään ja mitä niihin tulisi laittaa" ja "mitä kaikkea tarvitaan playbookin ajamiseen"
