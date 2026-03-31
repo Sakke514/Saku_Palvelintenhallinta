@@ -18,5 +18,6 @@ b) -aluksi tehdää avain (ssh-keygen)
 
 c 
 
-![Kuvakaappaus)(kuva1.png)
+<img src="kuva1.png" alt="Kuvankaappaus">
+
 
