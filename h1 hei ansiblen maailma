@@ -1,0 +1,6 @@
+x) SSH public key - Login Without password
+- Ensiksi generoidaan avainpari (Oma huomio vain julkinen avain voidaan jakaa muille)
+- Komenolla ssh-copy-id kopiodaan se hostiin sen jälkeen kun olet kirjoittanut salasanan viimeisen kerran komento lisää julkisen aveimen semmoiseksi, että sillä katsotaan olevan oikeudet kirjautumiseen 
+(oma huomio, oma kone allekirjoitta salaisella avaimella ja jos palvelin tarkastaa ja se vastaa julkista avainta pääsee sisään jos taas avaimet eivät vastaa toisiaan ei pääse sisään)
+x) Hello Ansible
+-
