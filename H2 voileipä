@@ -1,0 +1,12 @@
+kohta a) aluksi tehdään tunnus komennolla sudo adduser ansibleuser ja annetaa sille salasana ja
+painetaan entteriä loppuihin kohtiin. sen jälkeen ajetaan sääntö sudo  visudo -f /etc/sudoers.d/ansibleuser
+ja lisätään sinne rivi ansibleuser ALL=(ALL) NOPASSWD:ALL sen jälkeen ansibleuser voi ajaa komentoa ilman salasanaa
+
+kohta b) aluksi luodaan avainpari käyttäjälle ssh-keygen -t ed25519. sitten se kopioidaan luodulle käyttäjälle komenolla
+ssh-copy-id ansibleuser@localhost/(mikä tahansa haluttu ip). Tämän jälkeen ansible user voi kirjautua sshlla ilman salasanaa.
+
+c) asennetaan kaksi pakettia ansiblella ekaksi tein palybooki paketit.yml johon pistin seuraavat ehdot
+
+ja sitten ajoin komennolla ansible-playbook -i inventory2.ini paketit.yml
+
+d)
