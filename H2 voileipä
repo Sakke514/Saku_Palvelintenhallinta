@@ -5,8 +5,20 @@ ja lisätään sinne rivi ansibleuser ALL=(ALL) NOPASSWD:ALL sen jälkeen ansibl
 kohta b) aluksi luodaan avainpari käyttäjälle ssh-keygen -t ed25519. sitten se kopioidaan luodulle käyttäjälle komenolla
 ssh-copy-id ansibleuser@localhost/(mikä tahansa haluttu ip). Tämän jälkeen ansible user voi kirjautua sshlla ilman salasanaa.
 
-c) asennetaan kaksi pakettia ansiblella ekaksi tein palybooki paketit.yml johon pistin seuraavat ehdot
+kohta c) asennetaan kaksi pakettia ansiblella ekaksi tein palybooki paketit.yml johon pistin seuraavat ehdot
 
 ja sitten ajoin komennolla ansible-playbook -i inventory2.ini paketit.yml
 
-d)
+kohta d)tässä tehtävässä tehdään tiedosto oikeuksilla, montariviä, omistaja ja omistjan ryhmät
+oikeudet saadaa kun kirjoitetaan playbookkiin mode: '0600' kirjain muodossa tuo on -rw------- ja takoittaa, että
+ownerilla on luku ja kirjoitus oikeudet ja muilla eli group ja others ei ole mitään oikeuksia.
+usean rivin mittainen tiedosto saadan tekemällä
+content: |
+  esimerkki teksti
+  esimerkki teksti
+  esimerkki teksti
+  esimerkki teksti
+ja omiistaja ja ryhmä lisäämäällä owner: ja group:
+ja lopuksi ajettiin perinteisellä ansible-playbook -i... komennolla.
+
+e)
