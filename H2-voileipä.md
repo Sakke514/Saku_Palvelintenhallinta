@@ -15,13 +15,13 @@ kohta d) tässä tehtävässä tehdään tiedosto oikeuksilla, montariviä, omis
 oikeudet saadaa kun kirjoitetaan playbookkiin mode: '0600' kirjain muodossa tuo on -rw------- ja takoittaa, että
 ownerilla on luku ja kirjoitus oikeudet ja muilla eli group ja others ei ole mitään oikeuksia.
 usean rivin mittainen tiedosto saadan tekemällä
-content: |
+-content: |
   esimerkki teksti
   esimerkki teksti
   esimerkki teksti
   esimerkki teksti
-ja omiistaja ja ryhmä lisäämäällä owner: ja group:
-ja lopuksi ajettiin perinteisellä ansible-playbook -i... komennolla.
+-ja omiistaja ja ryhmä lisäämäällä owner: ja group:
+-ja lopuksi ajettiin perinteisellä ansible-playbook -i... komennolla.
 
 kohta e) kokeilin tässä get_url moduulia, jolla voidaan ladata tiedostoja netistä suoraan kohde koneelle
 eli muuten ihan perinteinen playbookki, mutta lisätään 
