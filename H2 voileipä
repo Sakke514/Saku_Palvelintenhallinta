@@ -9,7 +9,7 @@ kohta c) asennetaan kaksi pakettia ansiblella ekaksi tein palybooki paketit.yml 
 
 ja sitten ajoin komennolla ansible-playbook -i inventory2.ini paketit.yml
 
-kohta d)tässä tehtävässä tehdään tiedosto oikeuksilla, montariviä, omistaja ja omistjan ryhmät
+kohta d) tässä tehtävässä tehdään tiedosto oikeuksilla, montariviä, omistaja ja omistjan ryhmät
 oikeudet saadaa kun kirjoitetaan playbookkiin mode: '0600' kirjain muodossa tuo on -rw------- ja takoittaa, että
 ownerilla on luku ja kirjoitus oikeudet ja muilla eli group ja others ei ole mitään oikeuksia.
 usean rivin mittainen tiedosto saadan tekemällä
@@ -21,4 +21,10 @@ content: |
 ja omiistaja ja ryhmä lisäämäällä owner: ja group:
 ja lopuksi ajettiin perinteisellä ansible-playbook -i... komennolla.
 
-e)
+kohta e) kokeilin tässä get_url moduulia, jolla voidaan ladata tiedostoja netistä suoraan kohde koneelle
+eli muuten ihan perinteinen playbookki, mutta lisätään 
+get_url:
+  url:(urli eli vaikka wikipedian logo)
+  dest /tmp/wiki_logo.ong (ja dire mihin se laitetaan se ladattu tiedosto)
+  mode: '0600' eli oikeudet vielä loppuun
+  ja sitten ajetaan yml ja ini ja tiedosto latautuu.
