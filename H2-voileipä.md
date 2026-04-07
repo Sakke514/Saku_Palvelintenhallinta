@@ -1,9 +1,17 @@
+kohta x) tiivistelmät
+- space opera mode oli hyvä
+-  sudo without password: Eli, aluksi tehdään uusikäyttäjä ja sen jälkeen grouppi ja annetaa sille arvot että ei tarvitse antaa enää salasanaa.
+-  Psswordless sudo with Ansible: Tässä kerrotaan tarkemmin miten luodaan käyttäjä "antero" ja lisätään hänet ryhmiin
+-  ja lisätään SSH-avain käyttäjälle, että hän voi kirjautua ilman salasanaa.
+-  oma pohdinta olisi parempi rajoittaa NOPASSWD vain tiettyihin komenotihin esim tässä tapauksessa jos avain vuotaa saa hyökkäjä täydet root oikeudet.
+
+
 kohta a) aluksi tehdään tunnus komennolla sudo adduser ansibleuser ja annetaa sille salasana ja
 painetaan entteriä loppuihin kohtiin. sen jälkeen ajetaan sääntö sudo  visudo -f /etc/sudoers.d/ansibleuser
 ja lisätään sinne rivi ansibleuser ALL=(ALL) NOPASSWD:ALL sen jälkeen ansibleuser voi ajaa komentoa ilman salasanaa
 
-kohta b) aluksi luodaan avainpari käyttäjälle ssh-keygen -t ed25519. sitten se kopioidaan luodulle käyttäjälle komenolla
-ssh-copy-id ansibleuser@localhost/(mikä tahansa haluttu ip). Tämän jälkeen ansible user voi kirjautua sshlla ilman salasanaa.
+kohta b) aluksi luodaan avainpari käyttäjälle ssh-keygen -t sitten se kopioidaan luodulle käyttäjälle komenolla
+ssh-copy-id ansibleuser@localhost/(tai mikä tahansa haluttu ip). Tämän jälkeen ansible user voi kirjautua sshlla ilman salasanaa.
 
 kohta c) asennetaan kaksi pakettia ansiblella ekaksi tein palybooki paketit.yml johon pistin seuraavat ehdot
 
@@ -31,3 +39,8 @@ eli muuten ihan perinteinen playbookki, mutta lisätään
   - dest /tmp/wiki_logo.ong (ja dire mihin se laitetaan se ladattu tiedosto)
   - mode: '0600' eli oikeudet vielä loppuun
   - ja sitten ajetaan yml ja ini ja tiedosto latautuu.
+
+lähteet
+https://docs.ansible.com/projects/ansible/latest/collections/ansible/builtin/get_url_module.html
+https://terokarvinen.com/passwordless-sudo/
+https://terokarvinen.com/passwordless-sudo-with-ansible/
