@@ -22,6 +22,7 @@ usean rivin mittainen tiedosto saadan tekemällä
   - esimerkki teksti
 - ja omiistaja ja ryhmä lisäämäällä owner: ja group:
 - ja lopuksi ajettiin perinteisellä ansible-playbook -i... komennolla.
+<img src="https://raw.githubusercontent.com/Sakke514/Saku_Palvelintenhallinta/main/Screenshot2.png" alt="Kuvankaappaus">  
 
 kohta e) kokeilin tässä get_url moduulia, jolla voidaan ladata tiedostoja netistä suoraan kohde koneelle
 eli muuten ihan perinteinen playbookki, mutta lisätään 
