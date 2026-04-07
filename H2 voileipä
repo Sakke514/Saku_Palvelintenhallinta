@@ -6,7 +6,7 @@ kohta b) aluksi luodaan avainpari käyttäjälle ssh-keygen -t ed25519. sitten s
 ssh-copy-id ansibleuser@localhost/(mikä tahansa haluttu ip). Tämän jälkeen ansible user voi kirjautua sshlla ilman salasanaa.
 
 kohta c) asennetaan kaksi pakettia ansiblella ekaksi tein palybooki paketit.yml johon pistin seuraavat ehdot
-
+<img src="Screenshot.png" alt="Kuvankaappaus">
 ja sitten ajoin komennolla ansible-playbook -i inventory2.ini paketit.yml
 
 kohta d) tässä tehtävässä tehdään tiedosto oikeuksilla, montariviä, omistaja ja omistjan ryhmät
