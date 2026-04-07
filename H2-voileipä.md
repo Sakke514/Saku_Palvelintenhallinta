@@ -16,10 +16,10 @@ oikeudet saadaa kun kirjoitetaan playbookkiin mode: '0600' kirjain muodossa tuo 
 ownerilla on luku ja kirjoitus oikeudet ja muilla eli group ja others ei ole mitään oikeuksia.
 usean rivin mittainen tiedosto saadan tekemällä
 - content: |
-  esimerkki teksti
-  esimerkki teksti
-  esimerkki teksti
-  esimerkki teksti
+  - esimerkki teksti
+  - esimerkki teksti
+  - esimerkki teksti
+  - esimerkki teksti
 - ja omiistaja ja ryhmä lisäämäällä owner: ja group:
 - ja lopuksi ajettiin perinteisellä ansible-playbook -i... komennolla.
 
