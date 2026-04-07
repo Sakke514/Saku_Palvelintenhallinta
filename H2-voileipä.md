@@ -41,6 +41,6 @@ eli muuten ihan perinteinen playbookki, mutta lisätään
   - ja sitten ajetaan yml ja ini ja tiedosto latautuu.
 
 lähteet
-https://docs.ansible.com/projects/ansible/latest/collections/ansible/builtin/get_url_module.html
-https://terokarvinen.com/passwordless-sudo/
-https://terokarvinen.com/passwordless-sudo-with-ansible/
+- https://docs.ansible.com/projects/ansible/latest/collections/ansible/builtin/get_url_module.html
+- https://terokarvinen.com/passwordless-sudo/
+- https://terokarvinen.com/passwordless-sudo-with-ansible/
