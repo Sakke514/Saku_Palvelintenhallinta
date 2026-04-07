@@ -25,8 +25,8 @@ ja lopuksi ajettiin perinteisellä ansible-playbook -i... komennolla.
 
 kohta e) kokeilin tässä get_url moduulia, jolla voidaan ladata tiedostoja netistä suoraan kohde koneelle
 eli muuten ihan perinteinen playbookki, mutta lisätään 
-get_url:
-  url:(urli eli vaikka wikipedian logo)
-  dest /tmp/wiki_logo.ong (ja dire mihin se laitetaan se ladattu tiedosto)
-  mode: '0600' eli oikeudet vielä loppuun
-  ja sitten ajetaan yml ja ini ja tiedosto latautuu.
+- get_url:
+  - url:(urli eli vaikka wikipedian logo)
+  - dest /tmp/wiki_logo.ong (ja dire mihin se laitetaan se ladattu tiedosto)
+  - mode: '0600' eli oikeudet vielä loppuun
+  - ja sitten ajetaan yml ja ini ja tiedosto latautuu.
