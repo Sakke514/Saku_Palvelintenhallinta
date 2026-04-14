@@ -12,6 +12,7 @@
 **3.'ansible-doc service'**
 - Service moduuli ohjaa palveluita ja osaa tunnistaa mitä järjestelmää palvelin käyttää esim **systemd**
 - enabled kertoo käynnistyykö palvelu automaattisesti eli yes/no
+- name = palvelun nimi
 - State kertoo palvelun tilan
    - started, stopped, restarted
 - **Esimerkkinä** <pre>" name: Apache on päällä ja käynnistyy bootissa
