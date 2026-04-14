@@ -48,7 +48,7 @@ sudo apt install apache</pre>
 
 **Tehtävä b)**
 - Aluksi luodaan playbookki ja itse annoin sen nimeksi install_nginx.yml
-- **Tässä kerron alla olevan playbookin erikohdat ja mitä tekevät**
+- **Tässä kerron alla olevan playbookin kohdat ja mitä ne tekevät**
 - hosts: localhost kertoo että suoritetaan tällä koneella
 - connection: local eli ansible ei avaa shh:ta vaan ajaa paikallisesti
 - become yes kertoo että tehtävät pitää ajaa pääkäyttäjän oikeusilla eli vähän sama kui "sudo"
@@ -58,8 +58,7 @@ sudo apt install apache</pre>
 - state present varmistaa että nginx on asennettu jos se jo on ansible ei tee mitään
 - update_cache yes sama asia kuin sudo apt update eli päivittää listat että asentuuu viimeisin versio nginx:stä
 - ja vika kohta sama asia kiuin chown -R eli säätää oikeudet
-
-
+<img src="https://raw.githubusercontent.com/Sakke514/Saku_Palvelintenhallinta/main/Screenshot 2026-04-14 212109.png" alt="Kuvankaappaus">  
 
 - miten tämä toimii käytännössä itse ajoin muuten niikuin yleensä mutta .ini tiedoston sijaan käytin --asj-become.pass eli kysyy sudo salasanaa
 - **tärkeinpänä miten tämä asennettaisiin esim kaikille maailman koneille** --> vaihdettaisiin host osioiin web-palvelimet ja luotaisiin tiedosto (.ini) ja laitettaisiin sinne aluksi "[web-palevelimet]" ja sitten listattaisin halutut ip sinne ja ajeittaisiin niinkui kurssilla aijjemkin eli ansible-playbook -i hosts.ini install_nginx.yml
