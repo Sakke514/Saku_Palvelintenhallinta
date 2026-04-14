@@ -10,8 +10,8 @@
 - enabled kertoo käynnistyykö palvelu automaattisesti eli yes/no
 - State kertoo palvelun tilan
    - started, stopped, restarted
-- **Esimerkkinä " name: Apache on päällä ja käynnistyy bootissa
+- **Esimerkkinä** <pre>" name: Apache on päällä ja käynnistyy bootissa
   ansible.builtin.service:
     name: httpd
     state: started
-    enabled: yes "**
+    enabled: yes "<pre>
