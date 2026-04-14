@@ -27,3 +27,8 @@
 <pre>sudo apt update
 sudo apt install apache</pre>
 - sitten siirretään oikeudet rootilta sakup käyttäjälle  komennolla <pre>sudo chown -R sakup:sakup /var/www/html<pre>
+
+- Lopuksi luodaan uusi etusivu
+    - aluksi poistetaan vakio index
+      <pre> rm /var/www/html/index.html </pre>
+    - Ja viimeiseksi luodaan oma sivu <pre> echo "<h1>tervetuloa, tässä on sivuni nimeltä Apassi"</h1> /var/www/html/index.html <pre>
