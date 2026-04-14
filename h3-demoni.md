@@ -31,4 +31,4 @@ sudo apt install apache</pre>
 - Lopuksi luodaan uusi etusivu
     - aluksi poistetaan vakio index
       <pre> rm /var/www/html/index.html </pre>
-    - Ja viimeiseksi luodaan oma sivu <pre> echo "<h1>tervetuloa, tässä on sivuni nimeltä Apassi"</h1> /var/www/html/index.html <pre>
+    - Ja viimeiseksi luodaan oma sivu komennolla echo "<h1>"tervetuloa, tässä on sivuni nimeltä Apassi"</h1> /var/www/html/index.html"
