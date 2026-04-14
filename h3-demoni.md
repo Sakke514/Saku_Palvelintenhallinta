@@ -32,5 +32,5 @@ sudo apt install apache</pre>
     - aluksi poistetaan vakio index
       <pre> rm /var/www/html/index.html </pre>
     - Ja viimeiseksi luodaan oma sivu komennolla
- 
+ <img src="https://raw.githubusercontent.com/Sakke514/Saku_Palvelintenhallinta/main/Screenshot 2026-04-14 200744.png" alt="Kuvankaappaus">  
     - sitten vielä tarkistetaan selaimesta että toimi ja tadaa ja tästä opin myös että ääkkösiä ei kannata käyttää
