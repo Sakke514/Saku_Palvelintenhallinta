@@ -26,9 +26,11 @@
 - Ensimmäiseksi päivitetään ja asennettaan apache2
 <pre>sudo apt update
 sudo apt install apache</pre>
-- sitten siirretään oikeudet rootilta sakup käyttäjälle  komennolla <pre>sudo chown -R sakup:sakup /var/www/html<pre>
+- sitten siirretään oikeudet rootilta käyttäjälle  komennolla <pre>sudo chown -R sakup:sakup /var/www/html<pre>
 
 - Lopuksi luodaan uusi etusivu
     - aluksi poistetaan vakio index
       <pre> rm /var/www/html/index.html </pre>
-    - Ja viimeiseksi luodaan oma sivu komennolla echo "<h1>"tervetuloa, tässä on sivuni nimeltä Apassi"</h1> /var/www/html/index.html"
+    - Ja viimeiseksi luodaan oma sivu komennolla
+ 
+    - sitten vielä tarkistetaan selaimesta että toimi ja tadaa ja tästä opin myös että ääkkösiä ei kannata käyttää
