@@ -53,4 +53,15 @@ sudo apt install apache</pre>
 - connection: local eli ansible ei avaa shh:ta vaan ajaa paikallisesti
 - become yes kertoo että tehtävät pitää ajaa pääkäyttäjän oikeusilla eli vähän sama kui "sudo"
 - state stopped varmitaa sen että apache ei ole päällä
+- enbale no varmistaa että apache ei heräile henkiin esim seuraavassa käynnistyksessä
+- ignore erros yes lisäsin mukaan että jos apachea ei olisi asennettu playbook ei kaatuisi tähän taskiin vaan menee eteenpäin
+- state present varmistaa että nginx on asennettu jos se jo on ansible ei tee mitään
+- update_cache yes sama asia kuin sudo apt update eli päivittää listat että asentuuu viimeisin versio nginx:stä
+- ja vika kohta sama asia kiuin chown -R eli säätää oikeudet
+
+
+
+- miten tämä toimii käytännössä itse ajoin muuten niikuin yleensä mutta .ini tiedoston sijaan käytin --asj-become.pass eli kysyy sudo salasanaa
+- **tärkeinpänä miten tämä asennettaisiin esim kaikille maailman koneille** --> vaihdettaisiin host osioiin web-palvelimet ja luotaisiin tiedosto (.ini) ja laitettaisiin sinne aluksi "[web-palevelimet]" ja sitten listattaisin halutut ip sinne ja ajeittaisiin niinkui kurssilla aijjemkin eli ansible-playbook -i hosts.ini install_nginx.yml
+- ansible ottaisi tuolloin ssh yhteyden kaikkiin ini. tiedosotossa oleviin koneisiin ja suorittaisi asennukset
 
