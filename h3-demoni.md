@@ -34,3 +34,4 @@ sudo apt install apache</pre>
     - Ja viimeiseksi luodaan oma sivu komennolla
  <img src="https://raw.githubusercontent.com/Sakke514/Saku_Palvelintenhallinta/main/Screenshot 2026-04-14 200743.png" alt="Kuvankaappaus">  
     - sitten vielä tarkistetaan selaimesta että toimi ja tadaa ja tästä opin myös että ääkkösiä ei kannata käyttää
+ <img src="https://raw.githubusercontent.com/Sakke514/Saku_Palvelintenhallinta/main/Screenshot 2026-04-14 200837.png" alt="Kuvankaappaus">  
