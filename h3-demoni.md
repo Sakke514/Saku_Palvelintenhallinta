@@ -5,6 +5,8 @@
 - Handlerssit ovat taskeja, jotka suoritetaan aina vain, kun niistä ilmoitetaan
 - Handlerssit voivat käyttää silmukoita ilmoittamiseen. Looppeja käytetään yhdistettynä muuttujiin useiden ilmoitusten laukaisimeksiki. Mikä tahansa silmukan muutos laukaiseen kaikki handlerssit
 - Handlerssit käynnistetään siis silloin kuin tehdään muutoksia
+
+  
 **3.'ansible-doc service'**
 - Service moduuli ohjaa palveluita ja osaa tunnistaa mitä järjestelmää palvelin käyttää esim **systemd**
 - enabled kertoo käynnistyykö palvelu automaattisesti eli yes/no
