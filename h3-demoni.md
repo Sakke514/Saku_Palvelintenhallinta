@@ -20,3 +20,10 @@
     name: httpd
     state: started
     enabled: yes "<pre>
+
+
+  **Tehtävä a) Apassi. Asenna Apache 2 käsin. Weppisivun tulee näkyä palvelimen etusivulla. Sivun tulee olla tavallisen          käyttäjän muokattavissa, ilman root- tai sudo-oikeuksia.**
+- Ensimmäiseksi päivitetään ja asennettaan apache2
+<pre>sudo apt update
+sudo apt install apache</pre>
+- sitten siirretään oikeudet rootilta sakup käyttäjälle  komennolla <pre>sudo chown -R sakup:sakup /var/www/html<pre>
