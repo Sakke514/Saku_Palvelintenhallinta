@@ -15,14 +15,14 @@
 - name = palvelun nimi
 - State kertoo palvelun tilan
    - started, stopped, restarted
+     
 - **Esimerkkinä** <pre>" name: Apache on päällä ja käynnistyy bootissa
   ansible.builtin.service:
     name: httpd
     state: started
     enabled: yes "<pre>
 
-
-  **Tehtävä a) Apassi. Asenna Apache 2 käsin. Weppisivun tulee näkyä palvelimen etusivulla. Sivun tulee olla tavallisen          käyttäjän muokattavissa, ilman root- tai sudo-oikeuksia.**
+**Tehtävä a) Apassi. Asenna Apache 2 käsin. Weppisivun tulee näkyä palvelimen etusivulla. Sivun tulee olla tavallisen          käyttäjän muokattavissa, ilman root- tai sudo-oikeuksia.**
 - Ensimmäiseksi päivitetään ja asennettaan apache2
 <pre>sudo apt update
 sudo apt install apache</pre>
