@@ -48,4 +48,9 @@ sudo apt install apache</pre>
 
 **Tehtävä b)**
 - Aluksi luodaan playbookki ja itse annoin sen nimeksi install_nginx.yml
+- **Tässä kerron alla olevan playbookin erikohdat ja mitä tekevät**
+- hosts: localhost kertoo että suoritetaan tällä koneella
+- connection: local eli ansible ei avaa shh:ta vaan ajaa paikallisesti
+- become yes kertoo että tehtävät pitää ajaa pääkäyttäjän oikeusilla eli vähän sama kui "sudo"
+- state stopped varmitaa sen että apache ei ole päällä
 
