@@ -1,6 +1,8 @@
 **1. Karvinen 2026: Apache installed with Ansible - quick notes**
 - Antaa esimerkin millaiselta skripti voisi näyttää että jokainen user pystyisi muokkaamaan niitä.
 - Huomiona aina kun konfiguraatiota muokataan apache pitää käynnistää uudelleen.
+
+
 **2. Ansible Community Documentation: Handlers: running operations on change**
 - Handlerssit ovat taskeja, jotka suoritetaan aina vain, kun niistä ilmoitetaan
 - Handlerssit voivat käyttää silmukoita ilmoittamiseen. Looppeja käytetään yhdistettynä muuttujiin useiden ilmoitusten laukaisimeksiki. Mikä tahansa silmukan muutos laukaiseen kaikki handlerssit
