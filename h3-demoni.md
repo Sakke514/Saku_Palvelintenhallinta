@@ -34,4 +34,9 @@ sudo apt install apache</pre>
     - Ja viimeiseksi luodaan oma sivu komennolla
  <img src="https://raw.githubusercontent.com/Sakke514/Saku_Palvelintenhallinta/main/Screenshot 2026-04-14 200743.png" alt="Kuvankaappaus">  
     - sitten vielä tarkistetaan selaimesta että toimi ja tadaa ja tästä opin myös että ääkkösiä ei kannata käyttää
- <img src="https://raw.githubusercontent.com/Sakke514/Saku_Palvelintenhallinta/main/Screenshot 2026-04-14 200837.png" alt="Kuvankaappaus">  
+ <img src="https://raw.githubusercontent.com/Sakke514/Saku_Palvelintenhallinta/main/Screenshot 2026-04-14 200837.png" alt="Kuvankaappaus">
+
+
+**Tehtävä b)**
+- Ensimmäiseksi sammutetaan apache "sudo systemctl stop apche2 ja sitten vielä estetään että se ei käynnisty myöskään bootissa sudo systemctl disable apache2 ***(tämä tehdään siksi koska apache varaa portin 80 eikä nginx toimi jos apache on päällä)***
+- sitten asennellaan taas eli <pre> sudo apt install nginx -y </pre>
