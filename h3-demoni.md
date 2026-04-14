@@ -43,6 +43,6 @@ sudo apt install apache</pre>
 - ja kuten apachessakin tehdään hakemistosta oma, että voidaan muokkailla ilman sudoa <pre> sudo chown -R sakup:sakup /var/www/html </pre>
 - ja viimeiseksi luodaan sivu ilman sudoa ja testataan localhostissa, että homma pelittäää
 <img src="https://raw.githubusercontent.com/Sakke514/Saku_Palvelintenhallinta/main/Screenshot 2026-04-14 204446.png" alt="Kuvankaappaus">
-<img src="https://raw.githubusercontent.com/Sakke514/Saku_Palvelintenhallinta/main/Screenshot 2026-04-14 200743.png" alt="Kuvankaappaus">  
+<img src="https://raw.githubusercontent.com/Sakke514/Saku_Palvelintenhallinta/main/Screenshot 2026-04-14 204412.png" alt="Kuvankaappaus">  
 
 
