@@ -40,3 +40,5 @@ sudo apt install apache</pre>
 **Tehtävä b)**
 - Ensimmäiseksi sammutetaan apache "sudo systemctl stop apche2 ja sitten vielä estetään että se ei käynnisty myöskään bootissa sudo systemctl disable apache2 ***(tämä tehdään siksi koska apache varaa portin 80 eikä nginx toimi jos apache on päällä)***
 - sitten asennellaan taas eli <pre> sudo apt install nginx -y </pre>
+- ja kuten apachessakin tehdään hakemistosta oma, että voidaan muokkailla ilman sudoa <pre> sudo chown -R sakup:sakup /var/www/html </pre>
+
