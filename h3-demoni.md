@@ -46,3 +46,6 @@ sudo apt install apache</pre>
 <img src="https://raw.githubusercontent.com/Sakke514/Saku_Palvelintenhallinta/main/Screenshot 2026-04-14 204412.png" alt="Kuvankaappaus">  
 
 
+**Tehtävä b)**
+- Aluksi luodaan playbookki ja itse annoin sen nimeksi install_nginx.yml
+
