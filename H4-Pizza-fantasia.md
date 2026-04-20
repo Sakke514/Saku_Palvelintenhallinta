@@ -11,4 +11,4 @@
 -  <img src="https://raw.githubusercontent.com/Sakke514/Saku_Palvelintenhallinta/main/caddy.png" alt="Kuvankaappaus">
 **Tehtävä b)**
 - tein playbookin caddyplay.yml mihin pistin seuraavat taskit
-- 
+- <img src="https://raw.githubusercontent.com/Sakke514/Saku_Palvelintenhallinta/main/caddyplay.png" alt="Kuvankaappaus">
