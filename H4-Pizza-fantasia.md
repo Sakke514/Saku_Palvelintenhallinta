@@ -33,6 +33,8 @@
 -  <img src="https://raw.githubusercontent.com/Sakke514/Saku_Palvelintenhallinta/main/sivutoimii.png" alt="Kuvankaappaus">
 - <img src="https://raw.githubusercontent.com/Sakke514/Saku_Palvelintenhallinta/main/ajettu80.png" alt="Kuvankaappaus">
 - Tämän tehtävän playbook taskien luomiseen on hyödynnetty Gemini 3 Flash -kielimallia. Syötteenä käytettiin: "Miten .yml tiedostoa voidaan muokata masterilla ja miten teen sen jos haluan vaikka localhost sivulle tekstiä esim j2 tiedostolla mitä tarvitaan että playbookki käyttää sitä".
+
+  
 **tehtävä d)**
 - aluski ajetaan komento sudo apt-get purge caddy -y eli se poistaa caddyn
 - <img src="https://raw.githubusercontent.com/Sakke514/Saku_Palvelintenhallinta/main/poistetaan.png" alt="Kuvankaappaus">
