@@ -23,3 +23,10 @@
   ignore_errors: yes (tämä siksi jos apachea ei ole menee playbookissa eteenpäin eikä kaadu) </pre>
 - sitten vielä ajoin komennolla <pre> ansible-playbook caddyplay.yml --ask-become-pass </pre>
 - <img src="https://raw.githubusercontent.com/Sakke514/Saku_Palvelintenhallinta/main/ajettuc.png" alt="Kuvankaappaus">
+
+**Tehtävä c)**
+- Aluksi luodaan samaan kansioon missä playbook on tiedosto minkä loppu on .j2
+
+- sitten lisätään task playbookkiin joka kopioi tämän tiedoston /etc/caddy/Caddyfile -polkuun ja lataa asetukset uudelleen.
+
+- lopuksi vielä kun kaikki toimii ja muokattu playbook on ajettu katsotaan tuliko haluttu teksti
