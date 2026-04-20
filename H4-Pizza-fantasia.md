@@ -38,4 +38,7 @@
 - <img src="https://raw.githubusercontent.com/Sakke514/Saku_Palvelintenhallinta/main/poistetaan.png" alt="Kuvankaappaus">
 - sitten ajoin uudelleen playbookin
 - <img src="https://raw.githubusercontent.com/Sakke514/Saku_Palvelintenhallinta/main/ajopoisto.png" alt="Kuvankaappaus">
-- elo kuten kuvasta näämme homma pelittää eli playbookki toimii vaikka caddy poistaa
+- elo kuten kuvasta näämme homma pelittää eli playbookki toimii vaikka caddyn poistaa, playbook korjaa tilanteen
+
+**tehtävä f)**
+- Voimme todentaa että tila on idempotentti ajamlla playbookin uudestaa ja jos aina tulee vain ok ja mikään ei muutu näin on
