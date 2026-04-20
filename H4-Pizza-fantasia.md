@@ -42,3 +42,4 @@
 
 **tehtävä e)**
 - Voimme todentaa että tila on idempotentti ajamlla playbookin uudestaa ja jos aina tulee vain ok ja mikään ei muutu silloin näin on.
+- <img src="https://raw.githubusercontent.com/Sakke514/Saku_Palvelintenhallinta/main/idem.png" alt="Kuvankaappaus">
