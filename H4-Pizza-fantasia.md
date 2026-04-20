@@ -19,7 +19,7 @@
 - tein playbookin caddyplay.yml mihin pistin seuraavat taskit
 - <img src="https://raw.githubusercontent.com/Sakke514/Saku_Palvelintenhallinta/main/caddyplay.png" alt="Kuvankaappaus">
 - eli tässä play bookissa hyvin minimalistiset taskit extrana olisi voinut vielä laittaa että sulkee ja disablee kurssilla aijemmin käytetytyt apache2 ja nginx, koska voisi tulla ongelmia koska käyttävät samaa porttia. Itse olen ne disablannut joten sitä ei tässä localhost versiossa tarvittu
-- sen voisi tehdö esim
+- sen voisi tehdä esim
 - <pre> ansiblr.bultin service:
   name: apache2(esim)
   state: stopped
