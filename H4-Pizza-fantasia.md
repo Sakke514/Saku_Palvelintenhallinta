@@ -35,4 +35,7 @@
 
 **tehtävä e)**
 - aluski ajetaan komento sudo apt-get purge caddy -y eli se poistaa caddyn
+- <img src="https://raw.githubusercontent.com/Sakke514/Saku_Palvelintenhallinta/main/poistetaan.png" alt="Kuvankaappaus">
 - sitten ajoin uudelleen playbookin
+- <img src="https://raw.githubusercontent.com/Sakke514/Saku_Palvelintenhallinta/main/ajopoisto.png" alt="Kuvankaappaus">
+- elo kuten kuvasta näämme homma pelittää eli playbookki toimii vaikka caddy poistaa
