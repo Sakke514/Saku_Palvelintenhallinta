@@ -33,12 +33,12 @@
 -  <img src="https://raw.githubusercontent.com/Sakke514/Saku_Palvelintenhallinta/main/sivutoimii.png" alt="Kuvankaappaus">
 - <img src="https://raw.githubusercontent.com/Sakke514/Saku_Palvelintenhallinta/main/ajettu80.png" alt="Kuvankaappaus">
 
-**tehtävä e)**
+**tehtävä d)**
 - aluski ajetaan komento sudo apt-get purge caddy -y eli se poistaa caddyn
 - <img src="https://raw.githubusercontent.com/Sakke514/Saku_Palvelintenhallinta/main/poistetaan.png" alt="Kuvankaappaus">
 - sitten ajoin uudelleen playbookin
 - <img src="https://raw.githubusercontent.com/Sakke514/Saku_Palvelintenhallinta/main/ajopoisto.png" alt="Kuvankaappaus">
 - elo kuten kuvasta näämme homma pelittää eli playbookki toimii vaikka caddyn poistaa, playbook korjaa tilanteen
 
-**tehtävä f)**
+**tehtävä e)**
 - Voimme todentaa että tila on idempotentti ajamlla playbookin uudestaa ja jos aina tulee vain ok ja mikään ei muutu näin on
