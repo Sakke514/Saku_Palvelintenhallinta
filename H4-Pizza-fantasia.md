@@ -32,3 +32,7 @@
 - lopuksi vielä kun kaikki toimii ja muokattu playbook on ajettu katsotaan tuliko haluttu teksti
 -  <img src="https://raw.githubusercontent.com/Sakke514/Saku_Palvelintenhallinta/main/sivutoimii.png" alt="Kuvankaappaus">
 - <img src="https://raw.githubusercontent.com/Sakke514/Saku_Palvelintenhallinta/main/ajettu80.png" alt="Kuvankaappaus">
+
+**tehtävä e)**
+- aluski ajetaan komento sudo apt-get purge caddy -y eli se poistaa caddyn
+- sitten ajoin uudelleen playbookin
