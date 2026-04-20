@@ -41,4 +41,4 @@
 - elo kuten kuvasta näämme homma pelittää eli playbookki toimii vaikka caddyn poistaa, playbook korjaa tilanteen
 
 **tehtävä e)**
-- Voimme todentaa että tila on idempotentti ajamlla playbookin uudestaa ja jos aina tulee vain ok ja mikään ei muutu näin on
+- Voimme todentaa että tila on idempotentti ajamlla playbookin uudestaa ja jos aina tulee vain ok ja mikään ei muutu silloin näin on.
