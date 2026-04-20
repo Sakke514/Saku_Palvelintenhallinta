@@ -26,7 +26,8 @@
 
 **Tehtävä c)**
 - Aluksi luodaan samaan kansioon missä playbook on tiedosto minkä loppu on .j2
-
+- - <img src="https://raw.githubusercontent.com/Sakke514/Saku_Palvelintenhallinta/main/j2.png" alt="Kuvankaappaus">
 - sitten lisätään task playbookkiin joka kopioi tämän tiedoston /etc/caddy/Caddyfile -polkuun ja lataa asetukset uudelleen.
-
+- - <img src="https://raw.githubusercontent.com/Sakke514/Saku_Palvelintenhallinta/main/uusiplay.png" alt="Kuvankaappaus">
 - lopuksi vielä kun kaikki toimii ja muokattu playbook on ajettu katsotaan tuliko haluttu teksti
+- - <img src="https://raw.githubusercontent.com/Sakke514/Saku_Palvelintenhallinta/main/sivutoimii.png" alt="Kuvankaappaus">
